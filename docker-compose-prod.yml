@@ -1,0 +1,8 @@
+services:
+  app:
+    image: katakuri31/todo-app:prod
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/etc/todos
+    restart: unless-stopped
