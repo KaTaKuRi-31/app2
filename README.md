@@ -250,3 +250,12 @@ Caddy obtiendra automatiquement un certificat TLS et redirigera HTTP → HTTPS.
 
 Conclusion
 Le projet Todo App est entièrement conteneurisé et déployé sur AWS. L’application est accessible via un reverse proxy Caddy configuré en HTTP. La configuration est prête à évoluer vers une version sécurisée HTTPS avec Let’s Encrypt.
+
+___________________________________________________________________________________________
+___________________________________________________________________________________________
+
+Voici la comande a copie colle pour faire le test 
+
+git clone https://github.com/KaTaKuRi-31/app2.git
+cd app2
+docker compose -f docker-compose-prod.yml up -d
